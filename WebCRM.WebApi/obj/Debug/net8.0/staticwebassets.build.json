@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "sfbMnS7LAetsuZ6hCcNx880ac+Jx+V1OwyzSkCs027w=",
+  "Source": "WebCRM.WebApi",
+  "BasePath": "_content/WebCRM.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

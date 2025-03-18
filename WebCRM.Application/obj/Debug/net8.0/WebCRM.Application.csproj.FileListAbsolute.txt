@@ -1,0 +1,16 @@
+C:\Users\nikita.poznyak\source\repos\WebCRM\WebCRM.Application\bin\Debug\net8.0\WebCRM.Application.deps.json
+C:\Users\nikita.poznyak\source\repos\WebCRM\WebCRM.Application\bin\Debug\net8.0\WebCRM.Application.dll
+C:\Users\nikita.poznyak\source\repos\WebCRM\WebCRM.Application\bin\Debug\net8.0\WebCRM.Application.pdb
+C:\Users\nikita.poznyak\source\repos\WebCRM\WebCRM.Application\bin\Debug\net8.0\WebCRM.Domain.dll
+C:\Users\nikita.poznyak\source\repos\WebCRM\WebCRM.Application\bin\Debug\net8.0\WebCRM.Domain.pdb
+C:\Users\nikita.poznyak\source\repos\WebCRM\WebCRM.Application\obj\Debug\net8.0\WebCRM.Application.csproj.AssemblyReference.cache
+C:\Users\nikita.poznyak\source\repos\WebCRM\WebCRM.Application\obj\Debug\net8.0\WebCRM.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikita.poznyak\source\repos\WebCRM\WebCRM.Application\obj\Debug\net8.0\WebCRM.Application.AssemblyInfoInputs.cache
+C:\Users\nikita.poznyak\source\repos\WebCRM\WebCRM.Application\obj\Debug\net8.0\WebCRM.Application.AssemblyInfo.cs
+C:\Users\nikita.poznyak\source\repos\WebCRM\WebCRM.Application\obj\Debug\net8.0\WebCRM.Application.csproj.CoreCompileInputs.cache
+C:\Users\nikita.poznyak\source\repos\WebCRM\WebCRM.Application\obj\Debug\net8.0\WebCRM.A.54921A12.Up2Date
+C:\Users\nikita.poznyak\source\repos\WebCRM\WebCRM.Application\obj\Debug\net8.0\WebCRM.Application.dll
+C:\Users\nikita.poznyak\source\repos\WebCRM\WebCRM.Application\obj\Debug\net8.0\refint\WebCRM.Application.dll
+C:\Users\nikita.poznyak\source\repos\WebCRM\WebCRM.Application\obj\Debug\net8.0\WebCRM.Application.pdb
+C:\Users\nikita.poznyak\source\repos\WebCRM\WebCRM.Application\obj\Debug\net8.0\ref\WebCRM.Application.dll
+C:\Users\nikita.poznyak\source\repos\WebCRM\WebCRM.Application\obj\Debug\net8.0\WebCRM.Application.sourcelink.json

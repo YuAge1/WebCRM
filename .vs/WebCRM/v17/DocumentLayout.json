@@ -1,0 +1,251 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nikita.poznyak\\source\\repos\\WebCRM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE27C65C-7985-44AA-931C-452BFFF51FA8}|WebCRM.WebApi\\WebCRM.WebApi.csproj|c:\\users\\nikita.poznyak\\source\\repos\\webcrm\\webcrm.webapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE27C65C-7985-44AA-931C-452BFFF51FA8}|WebCRM.WebApi\\WebCRM.WebApi.csproj|solutionrelative:webcrm.webapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74F0C97-C3C6-4286-BDFE-36D26825073E}|WebCRM.Application\\WebCRM.Application.csproj|c:\\users\\nikita.poznyak\\source\\repos\\webcrm\\webcrm.application\\services\\ordersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74F0C97-C3C6-4286-BDFE-36D26825073E}|WebCRM.Application\\WebCRM.Application.csproj|solutionrelative:webcrm.application\\services\\ordersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{242145E4-FB7B-457B-A4F0-892AE3967361}|WebCRM.Domain\\WebCRM.Domain.csproj|c:\\users\\nikita.poznyak\\source\\repos\\webcrm\\webcrm.domain\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{242145E4-FB7B-457B-A4F0-892AE3967361}|WebCRM.Domain\\WebCRM.Domain.csproj|solutionrelative:webcrm.domain\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE27C65C-7985-44AA-931C-452BFFF51FA8}|WebCRM.WebApi\\WebCRM.WebApi.csproj|c:\\users\\nikita.poznyak\\source\\repos\\webcrm\\webcrm.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BE27C65C-7985-44AA-931C-452BFFF51FA8}|WebCRM.WebApi\\WebCRM.WebApi.csproj|solutionrelative:webcrm.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE27C65C-7985-44AA-931C-452BFFF51FA8}|WebCRM.WebApi\\WebCRM.WebApi.csproj|c:\\users\\nikita.poznyak\\source\\repos\\webcrm\\webcrm.webapi\\extensions\\servicecollectionsextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE27C65C-7985-44AA-931C-452BFFF51FA8}|WebCRM.WebApi\\WebCRM.WebApi.csproj|solutionrelative:webcrm.webapi\\extensions\\servicecollectionsextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE27C65C-7985-44AA-931C-452BFFF51FA8}|WebCRM.WebApi\\WebCRM.WebApi.csproj|c:\\users\\nikita.poznyak\\source\\repos\\webcrm\\webcrm.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE27C65C-7985-44AA-931C-452BFFF51FA8}|WebCRM.WebApi\\WebCRM.WebApi.csproj|solutionrelative:webcrm.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74F0C97-C3C6-4286-BDFE-36D26825073E}|WebCRM.Application\\WebCRM.Application.csproj|c:\\users\\nikita.poznyak\\source\\repos\\webcrm\\webcrm.application\\models\\orders\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74F0C97-C3C6-4286-BDFE-36D26825073E}|WebCRM.Application\\WebCRM.Application.csproj|solutionrelative:webcrm.application\\models\\orders\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{242145E4-FB7B-457B-A4F0-892AE3967361}|WebCRM.Domain\\WebCRM.Domain.csproj|c:\\users\\nikita.poznyak\\source\\repos\\webcrm\\webcrm.domain\\entities\\orderentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{242145E4-FB7B-457B-A4F0-892AE3967361}|WebCRM.Domain\\WebCRM.Domain.csproj|solutionrelative:webcrm.domain\\entities\\orderentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74F0C97-C3C6-4286-BDFE-36D26825073E}|WebCRM.Application\\WebCRM.Application.csproj|c:\\users\\nikita.poznyak\\source\\repos\\webcrm\\webcrm.application\\abstractions\\icartsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74F0C97-C3C6-4286-BDFE-36D26825073E}|WebCRM.Application\\WebCRM.Application.csproj|solutionrelative:webcrm.application\\abstractions\\icartsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{242145E4-FB7B-457B-A4F0-892AE3967361}|WebCRM.Domain\\WebCRM.Domain.csproj|c:\\users\\nikita.poznyak\\source\\repos\\webcrm\\webcrm.domain\\entities\\cartitementity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{242145E4-FB7B-457B-A4F0-892AE3967361}|WebCRM.Domain\\WebCRM.Domain.csproj|solutionrelative:webcrm.domain\\entities\\cartitementity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74F0C97-C3C6-4286-BDFE-36D26825073E}|WebCRM.Application\\WebCRM.Application.csproj|c:\\users\\nikita.poznyak\\source\\repos\\webcrm\\webcrm.application\\models\\carts\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74F0C97-C3C6-4286-BDFE-36D26825073E}|WebCRM.Application\\WebCRM.Application.csproj|solutionrelative:webcrm.application\\models\\carts\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74F0C97-C3C6-4286-BDFE-36D26825073E}|WebCRM.Application\\WebCRM.Application.csproj|c:\\users\\nikita.poznyak\\source\\repos\\webcrm\\webcrm.application\\models\\orders\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74F0C97-C3C6-4286-BDFE-36D26825073E}|WebCRM.Application\\WebCRM.Application.csproj|solutionrelative:webcrm.application\\models\\orders\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74F0C97-C3C6-4286-BDFE-36D26825073E}|WebCRM.Application\\WebCRM.Application.csproj|c:\\users\\nikita.poznyak\\source\\repos\\webcrm\\webcrm.application\\abstractions\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74F0C97-C3C6-4286-BDFE-36D26825073E}|WebCRM.Application\\WebCRM.Application.csproj|solutionrelative:webcrm.application\\abstractions\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74F0C97-C3C6-4286-BDFE-36D26825073E}|WebCRM.Application\\WebCRM.Application.csproj|c:\\users\\nikita.poznyak\\source\\repos\\webcrm\\webcrm.application\\models\\carts\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74F0C97-C3C6-4286-BDFE-36D26825073E}|WebCRM.Application\\WebCRM.Application.csproj|solutionrelative:webcrm.application\\models\\carts\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\nikita.poznyak\\source\\repos\\WebCRM\\WebCRM.Domain\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "WebCRM.Domain\\Entities\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\nikita.poznyak\\source\\repos\\WebCRM\\WebCRM.Domain\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "WebCRM.Domain\\Entities\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T21:54:43.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nikita.poznyak\\source\\repos\\WebCRM\\WebCRM.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "WebCRM.WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\nikita.poznyak\\source\\repos\\WebCRM\\WebCRM.WebApi\\appsettings.json",
+              "RelativeToolTip": "WebCRM.WebApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-16T21:30:40.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nikita.poznyak\\source\\repos\\WebCRM\\WebCRM.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "WebCRM.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\nikita.poznyak\\source\\repos\\WebCRM\\WebCRM.WebApi\\Program.cs",
+              "RelativeToolTip": "WebCRM.WebApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T21:28:05.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\nikita.poznyak\\source\\repos\\WebCRM\\WebCRM.WebApi\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "WebCRM.WebApi\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\nikita.poznyak\\source\\repos\\WebCRM\\WebCRM.WebApi\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "WebCRM.WebApi\\Controllers\\OrdersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T21:15:24.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServiceCollectionsExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\nikita.poznyak\\source\\repos\\WebCRM\\WebCRM.WebApi\\Extensions\\ServiceCollectionsExtensions.cs",
+              "RelativeDocumentMoniker": "WebCRM.WebApi\\Extensions\\ServiceCollectionsExtensions.cs",
+              "ToolTip": "C:\\Users\\nikita.poznyak\\source\\repos\\WebCRM\\WebCRM.WebApi\\Extensions\\ServiceCollectionsExtensions.cs",
+              "RelativeToolTip": "WebCRM.WebApi\\Extensions\\ServiceCollectionsExtensions.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwDkAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T21:11:24.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ICartsService.cs",
+              "DocumentMoniker": "C:\\Users\\nikita.poznyak\\source\\repos\\WebCRM\\WebCRM.Application\\Abstractions\\ICartsService.cs",
+              "RelativeDocumentMoniker": "WebCRM.Application\\Abstractions\\ICartsService.cs",
+              "ToolTip": "C:\\Users\\nikita.poznyak\\source\\repos\\WebCRM\\WebCRM.Application\\Abstractions\\ICartsService.cs",
+              "RelativeToolTip": "WebCRM.Application\\Abstractions\\ICartsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T20:55:27.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrdersService.cs",
+              "DocumentMoniker": "C:\\Users\\nikita.poznyak\\source\\repos\\WebCRM\\WebCRM.Application\\Services\\OrdersService.cs",
+              "RelativeDocumentMoniker": "WebCRM.Application\\Services\\OrdersService.cs",
+              "ToolTip": "C:\\Users\\nikita.poznyak\\source\\repos\\WebCRM\\WebCRM.Application\\Services\\OrdersService.cs",
+              "RelativeToolTip": "WebCRM.Application\\Services\\OrdersService.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAiwCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T11:52:37.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\nikita.poznyak\\source\\repos\\WebCRM\\WebCRM.Application\\Models\\Orders\\OrderDto.cs",
+              "RelativeDocumentMoniker": "WebCRM.Application\\Models\\Orders\\OrderDto.cs",
+              "ToolTip": "C:\\Users\\nikita.poznyak\\source\\repos\\WebCRM\\WebCRM.Application\\Models\\Orders\\OrderDto.cs",
+              "RelativeToolTip": "WebCRM.Application\\Models\\Orders\\OrderDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T11:50:46.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CartItemEntity.cs",
+              "DocumentMoniker": "C:\\Users\\nikita.poznyak\\source\\repos\\WebCRM\\WebCRM.Domain\\Entities\\CartItemEntity.cs",
+              "RelativeDocumentMoniker": "WebCRM.Domain\\Entities\\CartItemEntity.cs",
+              "ToolTip": "C:\\Users\\nikita.poznyak\\source\\repos\\WebCRM\\WebCRM.Domain\\Entities\\CartItemEntity.cs",
+              "RelativeToolTip": "WebCRM.Domain\\Entities\\CartItemEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T11:45:47.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CartItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\nikita.poznyak\\source\\repos\\WebCRM\\WebCRM.Application\\Models\\Carts\\CartItemDto.cs",
+              "RelativeDocumentMoniker": "WebCRM.Application\\Models\\Carts\\CartItemDto.cs",
+              "ToolTip": "C:\\Users\\nikita.poznyak\\source\\repos\\WebCRM\\WebCRM.Application\\Models\\Carts\\CartItemDto.cs",
+              "RelativeToolTip": "WebCRM.Application\\Models\\Carts\\CartItemDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T11:45:27.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CartDto.cs",
+              "DocumentMoniker": "C:\\Users\\nikita.poznyak\\source\\repos\\WebCRM\\WebCRM.Application\\Models\\Carts\\CartDto.cs",
+              "RelativeDocumentMoniker": "WebCRM.Application\\Models\\Carts\\CartDto.cs",
+              "ToolTip": "C:\\Users\\nikita.poznyak\\source\\repos\\WebCRM\\WebCRM.Application\\Models\\Carts\\CartDto.cs",
+              "RelativeToolTip": "WebCRM.Application\\Models\\Carts\\CartDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T11:45:00.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateOrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\nikita.poznyak\\source\\repos\\WebCRM\\WebCRM.Application\\Models\\Orders\\CreateOrderDto.cs",
+              "RelativeDocumentMoniker": "WebCRM.Application\\Models\\Orders\\CreateOrderDto.cs",
+              "ToolTip": "C:\\Users\\nikita.poznyak\\source\\repos\\WebCRM\\WebCRM.Application\\Models\\Orders\\CreateOrderDto.cs",
+              "RelativeToolTip": "WebCRM.Application\\Models\\Orders\\CreateOrderDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T11:41:49.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\nikita.poznyak\\source\\repos\\WebCRM\\WebCRM.Application\\Abstractions\\IOrderService.cs",
+              "RelativeDocumentMoniker": "WebCRM.Application\\Abstractions\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\nikita.poznyak\\source\\repos\\WebCRM\\WebCRM.Application\\Abstractions\\IOrderService.cs",
+              "RelativeToolTip": "WebCRM.Application\\Abstractions\\IOrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T11:39:42.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderEntity.cs",
+              "DocumentMoniker": "C:\\Users\\nikita.poznyak\\source\\repos\\WebCRM\\WebCRM.Domain\\Entities\\OrderEntity.cs",
+              "RelativeDocumentMoniker": "WebCRM.Domain\\Entities\\OrderEntity.cs",
+              "ToolTip": "C:\\Users\\nikita.poznyak\\source\\repos\\WebCRM\\WebCRM.Domain\\Entities\\OrderEntity.cs",
+              "RelativeToolTip": "WebCRM.Domain\\Entities\\OrderEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T11:38:30.525Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
