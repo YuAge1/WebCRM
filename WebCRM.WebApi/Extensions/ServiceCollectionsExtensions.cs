@@ -1,8 +1,17 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using WebCRM.Application.Abstractions;
 using WebCRM.Application.Services;
 using WebCRM.Domain;
+using WebCRM.Domain.Entities;
+using WebCRM.Domain.Models;
+using WebCRM.Domain.Options;
+using WebCRM.WebApi.BackgroundServices;
 
 namespace WebCRM.WebApi.Extensions
 {
@@ -27,19 +36,19 @@ namespace WebCRM.WebApi.Extensions
                     Scheme = "Bearer"
                 });
                 option.AddSecurityRequirement(new OpenApiSecurityRequirement
-             {
-                 {
-                     new OpenApiSecurityScheme
-                     {
-                         Reference = new OpenApiReference
-                         {
-                             Type = ReferenceType.SecurityScheme,
-                             Id = "Bearer"
-                         }
-                     },
-                     Array.Empty<string>()
-                 }
-             });
+                {
+                    {
+                        new OpenApiSecurityScheme
+                        {
+                            Reference = new OpenApiReference
+                            {
+                                Type = ReferenceType.SecurityScheme,
+                                Id = "Bearer"
+                            }
+                        },
+                        Array.Empty<string>()
+                    }
+                });
             });
 
             return builder;
@@ -57,12 +66,76 @@ namespace WebCRM.WebApi.Extensions
         {
             builder.Services.AddScoped<ICartsService, CartsService>();
             builder.Services.AddScoped<IOrderService, OrdersService>();
-
+            builder.Services.AddScoped<IMerchantService, MerchantService>();
+            
             return builder;
         }
 
         public static WebApplicationBuilder AddIntegrationServices(this WebApplicationBuilder builder)
         {
+            return builder;
+        }
+
+        public static WebApplicationBuilder AddBackgroundService(this WebApplicationBuilder builder)
+        {
+            builder.Services.AddHostedService<CreateOrderConsumer>();
+            return builder;
+        }
+
+        public static WebApplicationBuilder AddBearerAuthentication(this WebApplicationBuilder builder)
+        {
+            builder.Services
+                .AddAuthentication(x =>
+                {
+                    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+                })
+                .AddJwtBearer(x =>
+                {
+                    x.RequireHttpsMetadata = false;
+                    x.SaveToken = true;
+                    x.UseSecurityTokenValidators = true;
+                    x.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(
+                            builder.Configuration["Authentication:TokenPrivateKey"]!)),
+                        ValidIssuer = "test",
+                        ValidAudience = "test",
+                        // ValidateIssuer = true,
+                        // ValidateAudience = true,
+                        // ValidateLifetime = true,
+                        // ValidateIssuerSigningKey = true
+                        ValidateIssuer = false,
+                        ValidateAudience = false,
+                        ValidateLifetime = false,
+                        ValidateIssuerSigningKey = false
+                    };
+                });
+            builder.Services.AddAuthorization(options =>
+            {
+                options.AddPolicy("Admin", policy => policy.RequireRole(RoleConsts.Admin));
+                options.AddPolicy("Merchant", policy => policy.RequireRole(RoleConsts.Merchant));
+                options.AddPolicy("User", policy => policy.RequireRole(RoleConsts.User));
+            });
+            builder.Services.AddTransient<IAuthService, AuthService>();
+            builder.Services.AddDefaultIdentity<UserEntity>(options =>
+                {
+                    options.SignIn.RequireConfirmedAccount = false;
+                    options.Password.RequiredLength = 6;
+                    options.Password.RequireNonAlphanumeric = false;
+                })
+                .AddEntityFrameworkStores<OrdersDbContext>()
+                .AddUserManager<UserManager<UserEntity>>()
+                .AddUserStore<UserStore<UserEntity, IdentityRoleEntity, OrdersDbContext, long>>();
+
+            return builder;
+        }
+
+        public static WebApplicationBuilder AddOptions(this WebApplicationBuilder builder)
+        {
+            builder.Services.Configure<AuthOptions>(builder.Configuration.GetSection("Authentication"));
+            builder.Services.Configure<RabbitMqOptions>(builder.Configuration.GetSection("RabbitMQ"));
+            
             return builder;
         }
     }

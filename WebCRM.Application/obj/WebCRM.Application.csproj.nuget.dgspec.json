@@ -22,10 +22,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\nikita.poznyak\\ZYFRA\\PACKET": {},
           "https://api.nuget.org/v3/index.json": {},
+          "https://git.hub.zyfra.com/api/v4/groups/5/-/packages/nuget/index.json": {},
           "https://gitdp.zyfra.com/api/v4/groups/10/-/packages/nuget/index.json": {},
-          "https://nexus.dp.zyfra.com/repository/nuget-idp-hosted-new-proxy2/": {},
-          "https://nexus.idp.yc.ziiot.ru/repository/nuget-hosted/index.json": {}
+          "https://nexus.dp.zyfra.com/repository/nuget-idp-hosted-new-proxy2/": {}
         },
         "frameworks": {
           "net8.0": {
@@ -89,10 +90,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\nikita.poznyak\\ZYFRA\\PACKET": {},
           "https://api.nuget.org/v3/index.json": {},
+          "https://git.hub.zyfra.com/api/v4/groups/5/-/packages/nuget/index.json": {},
           "https://gitdp.zyfra.com/api/v4/groups/10/-/packages/nuget/index.json": {},
-          "https://nexus.dp.zyfra.com/repository/nuget-idp-hosted-new-proxy2/": {},
-          "https://nexus.idp.yc.ziiot.ru/repository/nuget-hosted/index.json": {}
+          "https://nexus.dp.zyfra.com/repository/nuget-idp-hosted-new-proxy2/": {}
         },
         "frameworks": {
           "net8.0": {
@@ -115,11 +117,23 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.2.0, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",

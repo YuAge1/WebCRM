@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http.HttpResults;
 using WebCRM.Application.Abstractions;
 using WebCRM.Application.Models.Orders;
@@ -36,6 +37,7 @@ namespace WebCRM.WebApi.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> GetAll()
         {
             logger.LogInformation($"Method api/orders GetAll started.");

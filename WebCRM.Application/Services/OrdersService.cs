@@ -12,6 +12,15 @@ namespace WebCRM.Application.Services
     {
         public async Task<OrderDto> Create(CreateOrderDto order)
         {
+            var orderByOrderNumber = await context.Orders.FirstOrDefaultAsync(x => 
+                x.OrderNumber == order.OrderNumber && x.MerchantId == order.MerchantId);
+
+            if (orderByOrderNumber != null)
+            {
+                throw new DuplicateEntityException($"Order with orderNumber {order.OrderNumber} is already exists for merchant " +
+                                                   $"{order.MerchantId}");
+            }
+            
             if (order.Cart == null)
             {
                 throw new ArgumentNullException();
