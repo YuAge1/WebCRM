@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WebCRM.Domain.Models;
 
 namespace WebCRM.Domain.Entities
 {
@@ -10,6 +11,7 @@ namespace WebCRM.Domain.Entities
     {
         public string? Name { get; set; }
         public long OrderNumber { get; set; }
+        public OrderStatusType Status { get; set; }
 
         public CustomerEntity? Customer { get; set; }
         public long? CustomerId { get; set; }
@@ -20,4 +22,4 @@ namespace WebCRM.Domain.Entities
         public MerchantEntity? Merchant { get; set; }
         public long? MerchantId { get; set; }
     }
-}
+} 

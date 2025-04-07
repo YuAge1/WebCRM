@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using WebCRM.Domain;
 using WebCRM.WebApi.Extensions;
+using WebCRM.WebApi.Filters;
 
 var builder = WebApplication.CreateBuilder(args);
 

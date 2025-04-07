@@ -5,6 +5,7 @@ using WebCRM.Application.Models.Orders;
 using WebCRM.Domain;
 using WebCRM.Domain.Entities;
 using WebCRM.Domain.Exceptions;
+using WebCRM.Domain.Models;
 
 namespace WebCRM.Application.Services
 {
@@ -80,9 +81,17 @@ namespace WebCRM.Application.Services
         }
 
         //todo: прикрутить статусную модель для отмены заказа
-        public Task Reject(long orderId)
+        public async Task Reject(long orderId)
         {
-            throw new NotImplementedException();
+            var order = await context.Orders.FirstOrDefaultAsync(x => x.Id == orderId);
+
+            if (order == null)
+            {
+                throw new EntityNotFoundException($"Order with id {orderId} not found");
+            }
+            
+            order.Status = OrderStatusType.Reject;
+            await context.SaveChangesAsync();
         }
     }
 }
