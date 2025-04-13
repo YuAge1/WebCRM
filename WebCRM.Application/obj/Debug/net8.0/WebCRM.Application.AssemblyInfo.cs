@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebCRM.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04c659e1d9a62962615c580283a14a537989fa8a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9753ed108a6e640ab82a913e85e8118e925f4b26")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebCRM.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebCRM.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

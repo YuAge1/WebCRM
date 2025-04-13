@@ -2780,6 +2780,7 @@
     "net8.0": [
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.2",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.2",
+      "Microsoft.EntityFrameworkCore >= 8.0.2",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.2",
       "Microsoft.IdentityModel.Tokens >= 8.2.0",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.2"
@@ -2838,6 +2839,10 @@
             "version": "[8.0.2, )"
           },
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[8.0.2, )"
+          },
+          "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[8.0.2, )"
           },

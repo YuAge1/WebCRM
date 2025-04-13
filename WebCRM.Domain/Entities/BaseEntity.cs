@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace WebCRM.Domain.Entities
 {
-    public class BaseEntity
+    public abstract class BaseEntity
     {
         public long Id { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
-        public bool IsActive { get; set; } = true;
+        public DateTime? UpdatedAt { get; set; }
+        public bool IsDeleted { get; set; }
     }
 }

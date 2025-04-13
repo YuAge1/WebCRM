@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\nikita.poznyak\\source\\repos\\WebCRM\\WebCRM.WebApi\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\nikita.poznyak\\source\\repos\\WebCRM\\WebCRM.WebApi\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\nikita.poznyak\\source\\repos\\WebCRM\\WebCRM.WebApi\\wwwroot\\js\\api.js",
+      "PackagePath": "staticwebassets\\js\\api.js"
+    },
+    {
+      "Id": "C:\\Users\\nikita.poznyak\\source\\repos\\WebCRM\\WebCRM.WebApi\\wwwroot\\js\\app.js",
+      "PackagePath": "staticwebassets\\js\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\nikita.poznyak\\source\\repos\\WebCRM\\WebCRM.WebApi\\wwwroot\\js\\charts.js",
+      "PackagePath": "staticwebassets\\js\\charts.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebCRM.WebApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebCRM.WebApi.props",
+      "PackagePath": "build\\WebCRM.WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebCRM.WebApi.props",
+      "PackagePath": "buildMultiTargeting\\WebCRM.WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebCRM.WebApi.props",
+      "PackagePath": "buildTransitive\\WebCRM.WebApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
