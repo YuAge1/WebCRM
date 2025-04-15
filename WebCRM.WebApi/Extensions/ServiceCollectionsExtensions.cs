@@ -97,18 +97,15 @@ namespace WebCRM.WebApi.Extensions
                     x.UseSecurityTokenValidators = true;
                     x.TokenValidationParameters = new TokenValidationParameters
                     {
-                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(
                             builder.Configuration["Authentication:TokenPrivateKey"]!)),
                         ValidIssuer = "test",
                         ValidAudience = "test",
-                        // ValidateIssuer = true,
-                        // ValidateAudience = true,
-                        // ValidateLifetime = true,
-                        // ValidateIssuerSigningKey = true
                         ValidateIssuer = false,
                         ValidateAudience = false,
-                        ValidateLifetime = false,
-                        ValidateIssuerSigningKey = false
+                        ValidateLifetime = true,
+                        ValidateIssuerSigningKey = true,
+                        ClockSkew = TimeSpan.Zero
                     };
                 });
             builder.Services.AddAuthorization(options =>

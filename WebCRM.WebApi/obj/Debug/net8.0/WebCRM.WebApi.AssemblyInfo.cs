@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebCRM.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9753ed108a6e640ab82a913e85e8118e925f4b26")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c01771130afec53cb40431979924294bcfbf9c00")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebCRM.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebCRM.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

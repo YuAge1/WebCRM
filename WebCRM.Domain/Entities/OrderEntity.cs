@@ -12,6 +12,7 @@ namespace WebCRM.Domain.Entities
         public string? Name { get; set; }
         public long OrderNumber { get; set; }
         public OrderStatusType Status { get; set; }
+        public decimal Discount { get; set; }
 
         public CustomerEntity? Customer { get; set; }
         public long? CustomerId { get; set; }

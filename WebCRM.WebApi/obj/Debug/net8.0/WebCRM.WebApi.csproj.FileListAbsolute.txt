@@ -127,3 +127,9 @@ C:\Users\nikita.poznyak\source\repos\WebCRM\WebCRM.WebApi\bin\Debug\net8.0\WebCR
 C:\Users\nikita.poznyak\source\repos\WebCRM\WebCRM.WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
 C:\Users\nikita.poznyak\source\repos\WebCRM\WebCRM.WebApi\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
 C:\Users\nikita.poznyak\source\repos\WebCRM\WebCRM.WebApi\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Users\nikita.poznyak\source\repos\WebCRM\WebCRM.WebApi\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\nikita.poznyak\source\repos\WebCRM\WebCRM.WebApi\bin\Debug\net8.0\MailKit.dll
+C:\Users\nikita.poznyak\source\repos\WebCRM\WebCRM.WebApi\bin\Debug\net8.0\MimeKit.dll
+C:\Users\nikita.poznyak\source\repos\WebCRM\WebCRM.WebApi\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\Users\nikita.poznyak\source\repos\WebCRM\WebCRM.WebApi\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\nikita.poznyak\source\repos\WebCRM\WebCRM.WebApi\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll

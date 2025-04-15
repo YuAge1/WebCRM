@@ -1,8 +1,11 @@
 ﻿using Microsoft.AspNetCore.HttpLogging;
 using Microsoft.EntityFrameworkCore;
+using WebCRM.Application.Abstractions;
 using WebCRM.Application.Interfaces;
+using WebCRM.Application.Repositories;
 using WebCRM.Application.Services;
 using WebCRM.Domain;
+using WebCRM.Domain.Options;
 using WebCRM.WebApi.Extensions;
 using WebCRM.WebApi.Filters;
 
@@ -27,6 +30,11 @@ builder
     .AddBackgroundService();
 
 builder.Services.AddScoped<ICrmService, CrmService>();
+builder.Services.AddScoped<IEmailService, EmailService>();
+builder.Services.AddScoped<IDiscountService, DiscountService>();
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+
+builder.Services.Configure<EmailOptions>(builder.Configuration.GetSection("Email"));
 
 var app = builder.Build();
 
@@ -42,7 +50,6 @@ app.UseAuthorization();
 
 app.UseSwagger();
 app.UseSwaggerUI();
-app.MapControllers();
 
 app.UseEndpoints(endpoints =>
 {
